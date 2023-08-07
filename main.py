@@ -43,7 +43,7 @@ class MainWindow(QMainWindow):
 
     def on_add_folder(self):
         # Открываем диалог выбора папки
-        folder_path = os.path.join(basedir, '../../Desktop/songs')
+        folder_path = os.path.join(basedir, 'songs')
 
         # Если папка выбрана, то добавляем ее в проводник
         if folder_path:
