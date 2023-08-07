@@ -1,0 +1,60 @@
+BODY {
+	COLOR: #a0a0a0; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+TABLE {
+	COLOR: #a0a0a0; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+TR {
+	COLOR: #a0a0a0; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+TD {
+	COLOR: #a0a0a0; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+UL {
+	COLOR: #a0a0a0; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+OL {
+	COLOR: #a0a0a0; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+LI {
+	COLOR: #a0a0a0; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+P {
+	COLOR: #a0a0a0; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #a0a0a0; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #a0a0a0; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #a00000; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #a00000; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+.nu {
+	COLOR: #8855ff; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+.nus {
+	COLOR: #a00000; FONT-FAMILY: courier,helvetica,sans-serif; FONT-SIZE: 20px; TEXT-DECORATION: none
+}
+.lus {
+	COLOR: #a0a000; FONT-FAMILY: courier,helvetica,sans-serif; FONT-SIZE: 22px; TEXT-DECORATION: none
+}
+.ku {
+	COLOR: #0000a0; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+A.nu:link {
+	COLOR: #a0a000; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+A.nu:visited {
+	COLOR: #a0a000; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+A.nu:hover {
+	COLOR: #a00000; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+A.nu:active {
+	COLOR: #a00000; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 13px; TEXT-DECORATION: none
+}

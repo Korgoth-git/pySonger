@@ -1,0 +1,326 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0045)http://private.peterlink.ru/klot/gt/verh.html --><HTML><HEAD>
+<META content=text/html;charset=windows-1251 http-equiv=Content-Type>
+<SCRIPT language=JavaScript>
+<!--
+function chb(nv,np,nnp,iv,ip,inp,op,ur,aur){
+var nur='',version=parseFloat(navigator.appVersion);
+if (navigator.appName.indexOf('Netscape')!=-1){
+if (version>=nv){if (np>0) nur=(np==1)?ur:aur;}
+else{if (nnp>0) nur=(nnp==1)?ur:aur;}
+}else if (navigator.appName.indexOf('Microsoft')!=-1){
+if (version>=iv){if (ip>0) nur=(ip==1)?ur:aur;}
+else{if (inp>0) nur=(inp==1)?ur:aur;}
+}else if (op>0) nur=(op==1)?ur:aur;
+if (nur){
+window.location=unescape(nur);
+document.MM_returnValue=false;
+}}
+function tlp(tln,md){
+var i,j,xy,ps,kf,si,nkf,fkf,pnu,tob,ft=false;
+if (document.MT==null) itl();
+xy=document.MT[tln];
+if (md==null){md=++xy.ID;ft=true;}
+if (md==xy.ID){
+setTimeout('tlp("'+tln+'",'+md+')',xy.delay);
+fNew=++xy.curFrame;
+for (i=0;i<xy.length;i++){
+si=xy[i];
+if (si.charAt(0)=='s'){
+if (si.obj){
+nkf=si.keyFrames.length;fkf=si.keyFrames[0];
+if (fNew>=fkf&&fNew<=si.keyFrames[nkf-1]){
+kf=1;
+for (j=0;j<si.values.length;j++){
+ps=si.values[j]; 
+if (nkf!=ps.length){
+if (ps.prop2==null) si.obj[ps.prop]=ps[fNew-fkf];
+else si.obj[ps.prop2][ps.prop]=ps[fNew-fkf];
+}else{
+while (kf<nkf&&fNew>=si.keyFrames[kf]) kf++;
+if (ft||fNew==si.keyFrames[kf-1]){
+if (ps.prop2==null) si.obj[ps.prop]=ps[kf-1];
+else si.obj[ps.prop2][ps.prop]=ps[kf-1];
+}}}}}
+}else if (si.charAt(0)=='b'&&fNew==si.frame) eval(si.value);
+if (fNew>xy.lastFrame) xy.ID=0;
+}}}
+function shl(){
+var i,visStr,args,tob;
+args=shl.arguments;
+for (i=0;i<(args.length-2);i+=3){
+visStr=args[i+2];
+if (navigator.appName=='Netscape'&&document.layers!=null){
+tob=eval(args[i]);
+if (tob) tob.visibility=visStr;
+}else if (document.all!=null){
+if (visStr=='show') visStr='visible';
+if (visStr=='hide') visStr='hidden';
+tob=eval(args[i+1]);
+if (tob) tob.style.visibility=visStr;
+}}}
+function pli(){
+if (document.images){
+var imgFiles=pli.arguments;
+if (document.preloadArray==null) document.preloadArray=new Array();
+var i=document.preloadArray.length;
+with (document) for (var j=0;j<imgFiles.length;j++) if (imgFiles[j].charAt(0)!="#"){
+preloadArray[i]=new Image;
+preloadArray[i++].src=imgFiles[j];
+}}}
+function itl(){
+var ns=navigator.appName=="Netscape";
+document.MT=new Array(1);
+document.MT[0]=new Array(9);
+document.MT["Timeline1"]=document.MT[0];
+document.MT[0].MM_Name="Timeline1";
+document.MT[0].fps=15;
+document.MT[0][0]=new String("si");
+document.MT[0][0].slot=1;
+if (ns) document.MT[0][0].obj=document["layer1"];
+else document.MT[0][0].obj=document.all ? document.all["layer1"]:null;
+document.MT[0][0].keyFrames=new Array(1,2,15);
+document.MT[0][0].values=new Array(3);
+document.MT[0][0].values[0]=new Array("hidden","visible","visible");
+document.MT[0][0].values[0].prop="visibility";
+if (!ns) document.MT[0][0].values[0].prop2="style";
+document.MT[0][0].values[1]=new Array(265,265,265,265,265,265,265,265,265,265,265,265,265,265,265);
+document.MT[0][0].values[1].prop="left";
+document.MT[0][0].values[2]=new Array(90,85,80,75,70,65,60,55,51,47,43,39,35,31,27);
+document.MT[0][0].values[2].prop="top";
+if (!ns){
+document.MT[0][0].values[1].prop2="style";
+document.MT[0][0].values[2].prop2="style";
+}
+document.MT[0][1]=new String("si");
+document.MT[0][1].slot=2;
+if (ns) document.MT[0][1].obj = document["layer2"];
+else document.MT[0][1].obj=document.all ? document.all["layer2"]:null;
+document.MT[0][1].keyFrames=new Array(3,4,17);
+document.MT[0][1].values=new Array(3);
+document.MT[0][1].values[0]=new Array(387,387,387,387,387,387,387,387,387,387,387,387,387,387,387);
+document.MT[0][1].values[0].prop="left";
+document.MT[0][1].values[1]=new Array(90,85,80,75,70,65,60,55,51,47,43,39,35,31,27);
+document.MT[0][1].values[1].prop="top";
+if (!ns){
+document.MT[0][1].values[0].prop2="style";
+document.MT[0][1].values[1].prop2="style";
+}
+document.MT[0][1].values[2]=new Array("hidden","visible","visible");
+document.MT[0][1].values[2].prop="visibility";
+if (!ns)
+document.MT[0][1].values[2].prop2="style";
+document.MT[0][2]=new String("si");
+document.MT[0][2].slot=3;
+if (ns)
+document.MT[0][2].obj=document["layer3"];
+else
+document.MT[0][2].obj=document.all ? document.all["layer3"]:null;
+document.MT[0][2].keyFrames=new Array(5,6,19);
+document.MT[0][2].values=new Array(3);
+document.MT[0][2].values[0]=new Array(470,470,470,470,470,470,470,470,470,470,470,470,470,470,470);
+document.MT[0][2].values[0].prop="left";
+document.MT[0][2].values[1]=new Array(90,85,80,75,70,65,60,55,51,47,43,39,35,31,27);
+document.MT[0][2].values[1].prop="top";
+if (!ns){
+document.MT[0][2].values[0].prop2="style";
+document.MT[0][2].values[1].prop2="style";
+}
+document.MT[0][2].values[2]=new Array("hidden","visible","visible");
+document.MT[0][2].values[2].prop="visibility";
+if (!ns)
+document.MT[0][2].values[2].prop2="style";
+document.MT[0][3]=new String("si");
+document.MT[0][3].slot=4;
+if (ns)
+document.MT[0][3].obj=document["layer4"];
+else
+document.MT[0][3].obj=document.all ? document.all["layer4"]:null;
+document.MT[0][3].keyFrames=new Array(7,8,21);
+document.MT[0][3].values=new Array(3);
+document.MT[0][3].values[0]=new Array(552,552,552,552,552,552,552,552,552,552,552,552,552,552,552);
+document.MT[0][3].values[0].prop="left";
+document.MT[0][3].values[1]=new Array(90,85,80,75,70,65,60,55,51,47,43,39,35,31,27);
+document.MT[0][3].values[1].prop="top";
+if (!ns){
+document.MT[0][3].values[0].prop2="style";
+document.MT[0][3].values[1].prop2="style";
+}
+document.MT[0][3].values[2]=new Array("hidden","visible","visible");
+document.MT[0][3].values[2].prop="visibility";
+if (!ns)
+document.MT[0][3].values[2].prop2="style";
+document.MT[0][4]=new String("si");
+document.MT[0][4].slot=5;
+if (ns)
+document.MT[0][4].obj=document["layer5"];
+else
+document.MT[0][4].obj=document.all ? document.all["layer5"]:null;
+document.MT[0][4].keyFrames=new Array(9,10,23);
+document.MT[0][4].values=new Array(3);
+document.MT[0][4].values[0]=new Array(616,616,616,616,616,616,616,616,616,616,616,616,616,616,616);
+document.MT[0][4].values[0].prop="left";
+document.MT[0][4].values[1]=new Array(90,85,80,75,70,65,60,55,51,47,43,39,35,31,27);
+document.MT[0][4].values[1].prop="top";
+if (!ns){
+document.MT[0][4].values[0].prop2="style";
+document.MT[0][4].values[1].prop2="style";
+}
+document.MT[0][4].values[2]=new Array("hidden","visible","visible");
+document.MT[0][4].values[2].prop="visibility";
+if (!ns)
+document.MT[0][4].values[2].prop2="style";
+document.MT[0][5]=new String("si");
+document.MT[0][5].slot=6;
+if (ns)
+document.MT[0][5].obj=document["layer6"];
+else
+document.MT[0][5].obj=document.all ? document.all["layer6"]:null;
+document.MT[0][5].keyFrames=new Array(11,12,25);
+document.MT[0][5].values=new Array(3);
+document.MT[0][5].values[0]=new Array(695,695,695,695,695,695,695,695,695,695,695,695,695,695,695);
+document.MT[0][5].values[0].prop="left";
+document.MT[0][5].values[1]=new Array(90,85,80,75,70,65,60,55,51,47,43,39,35,31,27);
+document.MT[0][5].values[1].prop="top";
+if (!ns){
+document.MT[0][5].values[0].prop2="style";
+document.MT[0][5].values[1].prop2="style";
+}
+document.MT[0][5].values[2]=new Array("hidden","visible","visible");
+document.MT[0][5].values[2].prop="visibility";
+if (!ns)
+document.MT[0][5].values[2].prop2="style";
+document.MT[0][6]=new String("si");
+document.MT[0][6].slot=7;
+if (ns)
+document.MT[0][6].obj=document["layer7"];
+else
+document.MT[0][6].obj=document.all ? document.all["layer7"]:null;
+document.MT[0][6].keyFrames=new Array(5,6,19);
+document.MT[0][6].values=new Array(3);
+document.MT[0][6].values[0]=new Array(495,495,495,495,495,495,495,495,495,495,495,495,495,495,495);
+document.MT[0][6].values[0].prop="left";
+document.MT[0][6].values[1]=new Array(95,92,88,85,82,79,76,73,70,67,64,61,58,55,52);
+document.MT[0][6].values[1].prop="top";
+if (!ns){
+document.MT[0][6].values[0].prop2="style";
+document.MT[0][6].values[1].prop2="style";
+}
+document.MT[0][6].values[2]=new Array("hidden","visible","visible");
+document.MT[0][6].values[2].prop="visibility";
+if (!ns)
+document.MT[0][6].values[2].prop2="style";
+document.MT[0][7]=new String("si");
+document.MT[0][7].slot=8;
+if (ns)
+document.MT[0][7].obj=document["layer8"];
+else
+document.MT[0][7].obj=document.all ? document.all["layer8"]:null;
+document.MT[0][7].keyFrames=new Array(1,2,15);
+document.MT[0][7].values=new Array(3);
+document.MT[0][7].values[0]=new Array(250,250,250,250,250,250,250,250,250,250,250,250,250,250,250);
+document.MT[0][7].values[0].prop="left";
+document.MT[0][7].values[1]=new Array(89,84,79,74,69,64,59,54,50,46,42,38,34,30,27);
+document.MT[0][7].values[1].prop="top";
+if (!ns){
+document.MT[0][7].values[0].prop2="style";
+document.MT[0][7].values[1].prop2="style";
+}
+document.MT[0][7].values[2]=new Array("hidden","visible","visible");
+document.MT[0][7].values[2].prop="visibility";
+if (!ns)
+document.MT[0][7].values[2].prop2="style";
+document.MT[0][8]=new String("si");
+document.MT[0][8].slot=1;
+if (ns)
+document.MT[0][8].obj=document["layer15"];
+else
+document.MT[0][8].obj=document.all ? document.all["layer15"]:null;
+document.MT[0][8].keyFrames=new Array(23,29,30);
+document.MT[0][8].values=new Array(1);
+document.MT[0][8].values[0]=new Array("hidden","visible","visible");
+document.MT[0][8].values[0].prop="visibility";
+if (!ns)
+document.MT[0][8].values[0].prop2="style";
+document.MT[0].lastFrame=36;
+for (i=0;i<document.MT.length;i++){
+document.MT[i].ID=null;
+document.MT[i].curFrame=0;
+document.MT[i].delay=1000/document.MT[i].fps;
+}}
+//-->
+</SCRIPT>
+
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY background="" bgColor=#000000 leftMargin=9 topMargin=0 marginheight="0" 
+marginwidth="9">
+<P><A href="http://private.peterlink.ru/klot/" target=_top><IMG 
+alt="На главную страницу" border=0 height=76 src="verh_files/logo.gif" vspace=5 
+width=232></A> <IMG align=top border=0 height=21 hspace=5 
+src="verh_files/map.gif" useMap=#gm width=396> </P>
+<DIV id=layer1 
+style="HEIGHT: 25px; LEFT: 265px; POSITION: absolute; TOP: 27px; VISIBILITY: hidden; WIDTH: 122px; Z-INDEX: 1"><A 
+href="http://private.peterlink.ru/klot/af/" 
+onmouseover="shl('document.layers[\'layer10\']','document.all[\'layer10\']','show','document.layers[\'layer11\']','document.all[\'layer11\']','hide','document.layers[\'layer12\']','document.all[\'layer12\']','hide','document.layers[\'layer13\']','document.all[\'layer13\']','hide','document.layers[\'layer14\']','document.all[\'layer14\']','hide','document.layers[\'layer15\']','document.all[\'layer15\']','hide')" 
+target=_top><IMG border=0 height=25 
+onload="chb(4.0,0,1,4.0,0,1,1,'../old.html','')" src="verh_files/af.gif" 
+width=122></A></DIV>
+<DIV id=layer2 
+style="HEIGHT: 25px; LEFT: 387px; POSITION: absolute; TOP: 27px; VISIBILITY: hidden; WIDTH: 83px; Z-INDEX: 2"><A 
+href="http://private.peterlink.ru/klot/ts/" 
+onmouseover="shl('document.layers[\'layer10\']','document.all[\'layer10\']','hide','document.layers[\'layer11\']','document.all[\'layer11\']','show','document.layers[\'layer12\']','document.all[\'layer12\']','hide','document.layers[\'layer13\']','document.all[\'layer13\']','hide','document.layers[\'layer14\']','document.all[\'layer14\']','hide','document.layers[\'layer15\']','document.all[\'layer15\']','hide')" 
+target=_top><IMG border=0 height=25 src="verh_files/ts.gif" width=83></A></DIV>
+<DIV id=layer3 
+style="HEIGHT: 25px; LEFT: 470px; POSITION: absolute; TOP: 27px; VISIBILITY: hidden; WIDTH: 82px; Z-INDEX: 3"><A 
+href="http://private.peterlink.ru/klot/gt/pole.html" 
+onmouseover="shl('document.layers[\'layer10\']','document.all[\'layer10\']','hide','document.layers[\'layer11\']','document.all[\'layer11\']','hide','document.layers[\'layer12\']','document.all[\'layer12\']','show','document.layers[\'layer13\']','document.all[\'layer13\']','hide','document.layers[\'layer14\']','document.all[\'layer14\']','hide','document.layers[\'layer15\']','document.all[\'layer15\']','hide')" 
+target=pole><IMG border=0 height=25 src="verh_files/gt.gif" width=82></A></DIV>
+<DIV id=layer4 
+style="HEIGHT: 25px; LEFT: 552px; POSITION: absolute; TOP: 27px; VISIBILITY: hidden; WIDTH: 64px; Z-INDEX: 4"><A 
+href="http://private.peterlink.ru/klot/bod/" 
+onmouseover="shl('document.layers[\'layer10\']','document.all[\'layer10\']','hide','document.layers[\'layer11\']','document.all[\'layer11\']','hide','document.layers[\'layer12\']','document.all[\'layer12\']','hide','document.layers[\'layer13\']','document.all[\'layer13\']','show','document.layers[\'layer14\']','document.all[\'layer14\']','hide','document.layers[\'layer15\']','document.all[\'layer15\']','hide')" 
+target=_top><IMG border=0 height=25 src="verh_files/bod.gif" width=64></A></DIV>
+<DIV id=layer5 
+style="HEIGHT: 25px; LEFT: 616px; POSITION: absolute; TOP: 27px; VISIBILITY: hidden; WIDTH: 79px; Z-INDEX: 5"><A 
+href="http://private.peterlink.ru/klot/job/" 
+onmouseover="shl('document.layers[\'layer10\']','document.all[\'layer10\']','hide','document.layers[\'layer11\']','document.all[\'layer11\']','hide','document.layers[\'layer12\']','document.all[\'layer12\']','hide','document.layers[\'layer13\']','document.all[\'layer13\']','hide','document.layers[\'layer14\']','document.all[\'layer14\']','show','document.layers[\'layer15\']','document.all[\'layer15\']','hide')" 
+target=_top><IMG border=0 height=25 src="verh_files/job.gif" width=79></A></DIV>
+<DIV id=layer6 
+style="HEIGHT: 25px; LEFT: 695px; POSITION: absolute; TOP: 27px; VISIBILITY: hidden; WIDTH: 80px; Z-INDEX: 6"><A 
+href="http://private.peterlink.ru/klot/lin/" 
+onmouseover="shl('document.layers[\'layer10\']','document.all[\'layer10\']','hide','document.layers[\'layer11\']','document.all[\'layer11\']','hide','document.layers[\'layer12\']','document.all[\'layer12\']','hide','document.layers[\'layer13\']','document.all[\'layer13\']','hide','document.layers[\'layer14\']','document.all[\'layer14\']','hide','document.layers[\'layer15\']','document.all[\'layer15\']','show')" 
+target=_top><IMG border=0 height=25 src="verh_files/lin.gif" width=80></A></DIV>
+<DIV id=layer7 
+style="HEIGHT: 11px; LEFT: 495px; POSITION: absolute; TOP: 52px; VISIBILITY: hidden; WIDTH: 30px; Z-INDEX: 7"><IMG 
+border=0 height=11 src="verh_files/uk.gif" width=30></DIV>
+<DIV id=layer8 
+style="HEIGHT: 1px; LEFT: 250px; POSITION: absolute; TOP: 26px; VISIBILITY: hidden; WIDTH: 520px; Z-INDEX: 8"><IMG 
+border=0 height=1 src="verh_files/lns.gif" width=520></DIV><MAP name=gm><AREA 
+  coords=80,2,212,15 href="http://private.peterlink.ru/klot/gb/" shape=RECT 
+  target=_top><AREA coords=230,2,340,15 
+  href="http://private.peterlink.ru/klot/map/" shape=RECT target=_top></MAP>
+<DIV id=layer9 
+style="HEIGHT: 20px; LEFT: 245px; POSITION: absolute; TOP: 20px; VISIBILITY: visible; WIDTH: 280px; Z-INDEX: 9">
+<P><FONT color=#c0c0c0 face=Arial size=2><B>"Винегрет"-сайт. 
+Гитара.</B></FONT></P></DIV>
+<DIV id=layer10 
+style="HEIGHT: 2px; LEFT: 265px; POSITION: absolute; TOP: 25px; VISIBILITY: hidden; WIDTH: 114px; Z-INDEX: 10"><IMG 
+align=left height=2 src="verh_files/lns.gif" width=114></DIV>
+<DIV id=layer11 
+style="HEIGHT: 2px; LEFT: 387px; POSITION: absolute; TOP: 25px; VISIBILITY: hidden; WIDTH: 75px; Z-INDEX: 11"><IMG 
+align=left height=2 src="verh_files/lns.gif" width=75></DIV>
+<DIV id=layer12 
+style="HEIGHT: 2px; LEFT: 470px; POSITION: absolute; TOP: 25px; VISIBILITY: hidden; WIDTH: 74px; Z-INDEX: 12"><IMG 
+align=left height=2 src="verh_files/lns.gif" width=74></DIV>
+<DIV id=layer13 
+style="HEIGHT: 2px; LEFT: 552px; POSITION: absolute; TOP: 25px; VISIBILITY: hidden; WIDTH: 56px; Z-INDEX: 13"><IMG 
+align=left height=2 src="verh_files/lns.gif" width=56></DIV>
+<DIV id=layer14 
+style="HEIGHT: 2px; LEFT: 616px; POSITION: absolute; TOP: 25px; VISIBILITY: hidden; WIDTH: 71px; Z-INDEX: 14"><IMG 
+align=left height=2 src="verh_files/lns.gif" width=71></DIV>
+<DIV id=layer15 
+style="HEIGHT: 2px; LEFT: 695px; POSITION: absolute; TOP: 25px; VISIBILITY: hidden; WIDTH: 72px; Z-INDEX: 15"><IMG 
+align=left height=2 
+onload="pli('../im/af.gif','../im/ts.gif','../im/gt.gif','../im/bod.gif','../im/job.gif','../im/lin.gif','../im/uk.gif','../im/lns.gif');shl('document.layers[\'layer9\']','document.all[\'layer9\']','hide');tlp('Timeline1')" 
+src="verh_files/lns.gif" width=72> </DIV>
+<P></P></BODY></HTML>
